@@ -10,6 +10,10 @@
  *    Filename: ft.js
  */
 
+// h;pns; bstosn;rd
+var photographerCost = 0;
+var totalCost = 0;
+
 // sets all form field values to defaults
 function resetForm() {
   document.getElementById("photognum").value = 1;
