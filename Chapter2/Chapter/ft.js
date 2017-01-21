@@ -13,13 +13,15 @@
 // h;pns; bstosn;rd
 var photographerCost = 0;
 var totalCost = 0;
+var memoryBook = false;
+var reproductionRights = false;
 
 // sets all form field values to defaults
 function resetForm() {
   document.getElementById("photognum").value = 1;
   document.getElementById("photoghrs").value = 2;
-  document.getElementById("membook").checked = false;
-  document.getElementById("reprodrights").checked = false;
+  document.getElementById("membook").checked = memoryBook;
+  document.getElementById("reprodrights").checked = reproductionRights;
   document.getElementById("distance").value = 0;
 }
 
