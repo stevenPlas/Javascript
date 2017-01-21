@@ -18,3 +18,6 @@ function resetForm() {
   document.getElementById("reprodrights").checked = false;
   document.getElementById("distance").value = 0;
 }
+
+// resets for when page is reloaded
+document.addEventListener("load", resetForm, false);
