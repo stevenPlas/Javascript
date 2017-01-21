@@ -10,7 +10,7 @@
  *    Filename: ft.js
  */
 
-// h;pns; bstosn;rd
+// global variables
 var photographerCost = 0;
 var totalCost = 0;
 var memoryBook = false;
@@ -19,10 +19,23 @@ var reproductionRights = false;
 function calcStaff() {
   var num = document.getElementById("photognum");
   var hrs = document .getElementById("photoghrs");
+  var distance = document.getElementById("distance");
 
   totalCost -= photographerCost;
-  photographerCost = num.value * 100 * hrs.value;
+  photographerCost = num.value * 100 * hrs.value + distance.value * hrs.value;
   totalCost += photographerCost;
+  document.getElementById("estimate").innerHTML = "$" + totalCost;
+}
+
+//adds/subtracts cost of memory book from total cost
+function toggleMembook() {
+  (document.getElementById("membook").checked === false) ? totalCost -= 250 : totalCost += 250;
+  document.getElementById("estimate").innerHTML = "$" + totalCost;
+}
+
+//adds/subtracts cost of reproduction rights from total cost
+function toggleRights() {
+  (document.getElementById("reprodrights").checked === false) ? totalCost -= 1250 : totalCost += 1250;
   document.getElementById("estimate").innerHTML = "$" + totalCost;
 }
 
@@ -41,6 +54,9 @@ function resetForm() {
 function createEventListeners() {
   document.getElementById("photognum").addEventListener("change", calcStaff, false);
   document.getElementById("photoghrs").addEventListener("change", calcStaff, false);
+  document.getElementById("membook").addEventListener("change", toggleMembook, false);
+  document.getElementById("reprodrights").addEventListener("change", toggleRights, false);
+  document.getElementById("distance").addEventListener("change", calcStaff, false);
 }
 
 // resets for when page is reloaded
