@@ -24,17 +24,16 @@ main {
     margin-right: auto;
 }
 
-
-.bld{
-	font-size: 20px;
-	font-family: Impact, sans-serif;
-  position: relative;
-  left: 30px;
+.bld {
+    font-size: 20px;
+    font-family: Impact, sans-serif;
+    position: relative;
+    left: 30px;
 }
 
 .menu {
-  display: inline;
-  list-style-type: none;
+    display: inline;
+    list-style-type: none;
 }
 
 .menu li {
@@ -51,6 +50,7 @@ main {
     font-family: Impact, sans-serif;
     border-radius: 25px;
 }
+
 .menu a:hover {
     background-color: #53ff1a;
 }
@@ -131,13 +131,12 @@ footer a {
         font-family: cursive, sans-serif;
         width: 100px;
     }
-
-    .bld{
-    	font-size: 20px;
-    	font-family: Impact, sans-serif;
-      position: absolute;
-      right: 10px;
-      top: 120px;
+    .bld {
+        font-size: 20px;
+        font-family: Impact, sans-serif;
+        position: absolute;
+        right: 10px;
+        top: 120px;
     }
     .wrapper {
         margin-left: auto;
