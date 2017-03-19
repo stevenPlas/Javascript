@@ -11,36 +11,19 @@ Filename: script.js
 "use strict";
 
 //Global Variables
-var delivInfo = {
-  info:{
-    name: "",
-    addr: "",
-    city: "",
-    email: "",
-    phone: ""
-  }
-};
+var delivInfo = {};
 var delivSummary = document.getElementById("deliverTo");
 
+//Proccessing the delivery information
 function processDeliveryInfo() {
   var prop;
-  /*var name;
-  var addr;
-  var city;
-  var email;
-  var phone;
 
-  name = "nameinput";
-  addr = "addrinput";
-  city = "cityinput";
-  email = "emailinput";
-  phone = "phhoneinput";*/
-
-  delivInfo.info.name = document.getElementById("nameinput").value;
-  delivInfo.info.addr = document.getElementById("addrinput").value;
-  delivInfo.info.city = document.getElementById("cityinput").value;
-  delivInfo.info.email = document.getElementById("emailinput").value;
-  delivInfo.info.phone = document.getElementById("phoneinput").value;
+  delivSummary.innerHTML = "";
+  delivInfo.name = document.getElementById("nameinput").value;
+  delivInfo.addr = document.getElementById("addrinput").value;
+  delivInfo.city = document.getElementById("cityinput").value;
+  delivInfo.email = document.getElementById("emailinput").value;
+  delivInfo.phone = document.getElementById("phoneinput").value;
 
   for (prop in delivInfo) {
     delivSummary.innerHTML += "<p>" + delivInfo[prop] + "<p>";
@@ -48,10 +31,12 @@ function processDeliveryInfo() {
 }
 
 function previewOrder() {
-  processDeliveryInfo();
-  document.getElementById("section").style.display = "block";
+  processDeliveryInfo(); // calling the process delivery function
+  document.getElementsByTagName('section')[0].style.display = 'block'; //displaying the order summery
+  delivSummary.style.display = "block"; // displaying the delivery information
 }
 
+//Create the event listener function
 function createEventListeners() {
   var previewButton = document.getElementById("previewBtn");
   if (previewButton.addEventListener) {
