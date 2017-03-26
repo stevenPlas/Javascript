@@ -51,6 +51,7 @@ var proj74 = document.getElementById("7-4").href = "http://wcccdesign.com/plas/C
 var orbit = document.getElementById("account").href = "http://wcccdesign.com/plas/Chapter8/Chapter/account.htm";
 var proj71 = document.getElementById("8-1").href = "http://wcccdesign.com/plas/Chapter8/HandsOnProject8-1/index.htm";
 var proj73 = document.getElementById("8-3").href = "http://wcccdesign.com/plas/Chapter8/HandsOnProject8-3/index.htm";
+var diss8 = document.getElementById("diss8").href = "http://wcccdesign.com/plas/Chapter8/JSONTest/index.html";
 
 //footer mailto tag
 var mail = document.getElementById("mail").href = "mailto:plass@my.wccc.edu"
