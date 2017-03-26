@@ -1,2 +1,2 @@
 # Javascript
-This is my code for CPT_206
+This is all of my work, and projects for my Javascript class: CPT_206
