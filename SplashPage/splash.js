@@ -49,9 +49,14 @@ var proj74 = document.getElementById("7-4").href = "http://wcccdesign.com/plas/C
 
 // Chapter 8
 var orbit = document.getElementById("account").href = "http://wcccdesign.com/plas/Chapter8/Chapter/account.htm";
-var proj71 = document.getElementById("8-1").href = "http://wcccdesign.com/plas/Chapter8/HandsOnProject8-1/index.htm";
-var proj73 = document.getElementById("8-3").href = "http://wcccdesign.com/plas/Chapter8/HandsOnProject8-3/index.htm";
+var proj81 = document.getElementById("8-1").href = "http://wcccdesign.com/plas/Chapter8/HandsOnProject8-1/index.htm";
+var proj83 = document.getElementById("8-3").href = "http://wcccdesign.com/plas/Chapter8/HandsOnProject8-3/index.htm";
 var diss8 = document.getElementById("diss8").href = "http://wcccdesign.com/plas/Chapter8/JSONTest/index.html";
+
+//Chapter 9
+var order = document.getElementById("order").href = "http://wcccdesign.com/plas/Chapter9/Chapter/order.htm";
+var proj92 = document.getElementById("9-2").href = "http://wcccdesign.com/plas/Chapter9/HandsOnProject9-2/index.htm";
+var proj93 = document.getElementById("9-3").href = "http://wcccdesign.com/plas/Chapter9/HandsOnProject9-3/index.htm";
 
 //footer mailto tag
 var mail = document.getElementById("mail").href = "mailto:plass@my.wccc.edu"
