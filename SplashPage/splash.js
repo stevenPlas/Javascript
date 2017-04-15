@@ -64,7 +64,13 @@ var proj101 = document.getElementById("10-1").href = "http://wcccdesign.com/plas
 var proj102 = document.getElementById("10-2").href = "http://wcccdesign.com/plas/Chapter10/HandsOnProject10-2/index.htm";
 
 //Chapter 11
-var solar = document.getElementById("oak").href = "http://wcccdesign.com/plas/Chapter11/Chapter/solar.htm";
+var solar = document.getElementById("solar").href = "http://wcccdesign.com/plas/Chapter11/Chapter/solar.htm";
+
+//Chapter 12
+var rocks = document.getElementById("rocks").href = "http://wcccdesign.com/plas/Chapter12/Chapter/rocks.htm";
+var proj121 = document.getElementById("12-1").href = "http://wcccdesign.com/plas/Chapter12/HandsOnProject12-1/index.htm";
+var proj122 = document.getElementById("12-2").href = "http://wcccdesign.com/plas/Chapter12/HandsOnProject12-2/index.htm";
+var proj123 = document.getElementById("12-3").href = "http://wcccdesign.com/plas/Chapter12/HandsOnProject12-3/index.htm";
 
 //footer mailto tag
 var mail = document.getElementById("mail").href = "mailto:plass@my.wccc.edu"
