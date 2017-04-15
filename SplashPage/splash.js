@@ -58,5 +58,10 @@ var order = document.getElementById("order").href = "http://wcccdesign.com/plas/
 var proj92 = document.getElementById("9-2").href = "http://wcccdesign.com/plas/Chapter9/HandsOnProject9-2/index.htm";
 var proj93 = document.getElementById("9-3").href = "http://wcccdesign.com/plas/Chapter9/HandsOnProject9-3/index.htm";
 
+// CHapter 10
+var order = document.getElementById("oak").href = "http://wcccdesign.com/plas/Chapter10/Chapter/oaktop.htm";
+var proj101 = document.getElementById("10-1").href = "http://wcccdesign.com/plas/Chapter10/HandsOnProject10-1/index.htm";
+var proj102 = document.getElementById("10-2").href = "http://wcccdesign.com/plas/Chapter10/HandsOnProject10-2/index.htm";
+
 //footer mailto tag
 var mail = document.getElementById("mail").href = "mailto:plass@my.wccc.edu"
