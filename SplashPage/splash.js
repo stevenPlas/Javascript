@@ -63,5 +63,8 @@ var order = document.getElementById("oak").href = "http://wcccdesign.com/plas/Ch
 var proj101 = document.getElementById("10-1").href = "http://wcccdesign.com/plas/Chapter10/HandsOnProject10-1/index.htm";
 var proj102 = document.getElementById("10-2").href = "http://wcccdesign.com/plas/Chapter10/HandsOnProject10-2/index.htm";
 
+//Chapter 11
+var solar = document.getElementById("oak").href = "http://wcccdesign.com/plas/Chapter11/Chapter/solar.htm";
+
 //footer mailto tag
 var mail = document.getElementById("mail").href = "mailto:plass@my.wccc.edu"
