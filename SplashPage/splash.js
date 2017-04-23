@@ -73,7 +73,7 @@ var proj122 = document.getElementById("12-2").href = "http://wcccdesign.com/plas
 var proj123 = document.getElementById("12-3").href = "http://wcccdesign.com/plas/Chapter12/HandsOnProject12-3/index.htm";
 
 // Project
-var project = document.getElementById(projectv2).href = "http://wcccdesign.com/plas/projectv2/index.html";
+var project = document.getElementById("projectv2").href = "http://wcccdesign.com/plas/projectv2/index.html";
 
 //footer mailto tag
 var mail = document.getElementById("mail").href = "mailto:plass@my.wccc.edu"
