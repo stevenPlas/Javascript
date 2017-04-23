@@ -11,28 +11,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<header>
+    <h1>Search for an Artist</h1>
+</header>
+
 <body>
     <div class="container">
-        <h1>Search for an Artist</h1>
-        <p>Type an artist name and click on "Search". Then, click on any album to display information on the album</p>
-        <form id="search-form">
-            <input type="text" id="query" value="" class="form-control" placeholder="Type an Artist Name" />
-            <input type="submit" id="search" class="btn btn-primary" value="Search" />
-        </form>
-        <div id="results"></div>
-        <div>
-          <ul id="information"></ul>
+        <p>Type an artist's name to display their top 10 songs on last.fm</p>
+        <div class="center-form">
+            <form id="search-form">
+                <input type="text" id="query" value="" class="form-control" placeholder="Type an Artist Name" />
+                <input type="submit" id="search" class="btn btn-primary" value="Search" />
+            </form>
+        </div>
+        <div class="bandInformation">
+            <ul id="information"></ul>
         </div>
     </div>
 
-    <script id="results-template" type="text/x-handlebars-template">
-        {{#each albums.items}}
-        <div style="background-image:url({{images.0.url}})" data-album-id="{{id}}" class="cover"></div>
-        {{/each}}
-    </script>
-
     <script src="jquery-1.10.1.min.js"></script>
-    <script src="handlebars.min.js"></script>
     <script src="script.js"></script>
 </body>
 

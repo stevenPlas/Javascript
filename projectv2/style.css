@@ -1,18 +1,39 @@
 body {
     padding: 20px;
+    background-color: #bdbdbd;
 }
-#search-form, .form-control {
-    margin-bottom: 20px;
+
+h1, p {
+    text-align: center;
 }
-.cover {
-    width: 300px;
-    height: 300px;
-    display: inline-block;
-    background-size: cover;
+
+header {
+    background-color: #dd2c00;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: -28px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-.cover:hover {
-    cursor: pointer;
+
+.center-form {
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.cover.playing {
-    border: 5px solid #e45343;
+
+.bandInformation, li {
+    text-align: left;
+    list-style: none;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left {
+    text-align: right;
+}
+
+.bld {
+    font-weight: bold;
 }
