@@ -37,3 +37,20 @@ header {
 .bld {
     font-weight: bold;
 }
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+table, tr, td {
+  border: 1px solid black;
+}
+
+.songRow {
+  width: 50%;
+}
+
+.viewRow {
+  width: 35%;
+}

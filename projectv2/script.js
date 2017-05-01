@@ -9,8 +9,8 @@ $('#search-form').submit(function(e) {
         url: url,
         success: function(data) {
             for (var i = 0; i < 10; i++) {
-                $info.append("<li><span class='bld'>Song:</span> " + data.toptracks.track[i].name + "<br> &nbsp;&nbsp;&nbsp;&nbsp;" +
-                    "<span class='bld'>Total Plays:</span> " + data.toptracks.track[i].playcount + "</li> <br>");
+                $info.append("<table><tr><td class='songRow'><span class='bld'>Song: </span> " + data.toptracks.track[i].name + "</td>" +
+                    "<td class='viewRow'><span class='bld'>Total Plays:</span>  " + data.toptracks.track[i].playcount + "</td></tr></table><br>");
             }
 
         }
